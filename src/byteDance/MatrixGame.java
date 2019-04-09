@@ -1,5 +1,7 @@
 package byteDance;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 /**小a在玩一个很简单的游戏，游戏的内容是控制一个小人在一块矩形的空地内走，一旦小人走出矩阵范围，游戏就失败。
@@ -15,11 +17,26 @@ public class MatrixGame {
     public static void main(String[] args){
         Scanner sc= new Scanner(System.in);
         String c=sc.next();
+
         /*int[][] q=null;
         for(int j=0;j<4;j++)
         { int i=0;
             q[i][j]=sc.nextInt();
             i++;
+            D:\workspace\apache-maven-3.6.0\bin;
+            C:\ProgramData\Oracle\Java\javapath;
+            %MYSQL_HOME%\bin;
+            %GO_HOME%\bin;
+            C:\Windows\system32;
+            C:\Windows;
+            C:\Windows\System32\Wbem;
+            C:\Windows\System32\WindowsPowerShell\v1.0\;
+            D:\MATLAB\runtime\win64;
+            D:\MATLAB\bin;
+            D:\MATLAB\polyspace\bin;
+            D:\Git\cmd;
+            D:\nodejs\;
+            C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common
         }*/
         System.out.println(count(c,8,10,6,5));
     }
