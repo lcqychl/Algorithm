@@ -27,7 +27,7 @@ public class Test0052 {
                                        int[] hills,
                                        int[] dales) {
         int res = rows[col] + hills[row - col + 2 * n] + dales[row + col];
-        return (res == 0) ? true : false;
+        return res == 0;
     }
 
     public int backtrack(int row, int count, int n,
