@@ -1,5 +1,7 @@
 package leetCode.test1_400.test0141_0160;
 
+import leetCode.ListNode;
+
 /**
  * @author nimingxiong
  * @date 2019/12/20 19:37
@@ -13,15 +15,6 @@ package leetCode.test1_400.test0141_0160;
  * 给定链表 1->2->3->4->5, 重新排列为 1->5->2->4->3.
  */
 public class Test0143 {
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
-
     public void reorderList(ListNode head) {
         if (head == null || head.next == null || head.next.next == null) {
             return;

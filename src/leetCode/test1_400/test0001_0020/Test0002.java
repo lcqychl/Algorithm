@@ -1,5 +1,7 @@
 package leetCode.test1_400.test0001_0020;
 
+import leetCode.ListNode;
+
 /**
  * 给出两个 非空 的链表用来表示两个非负的整数。
  * 其中，它们各自的位数是按照 逆序 的方式存储的，并且它们的每个节点只能存储 一位 数字。
@@ -12,15 +14,6 @@ package leetCode.test1_400.test0001_0020;
  */
 
 public class Test0002 {
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
-
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode dummyHead = new ListNode(0);
         ListNode p = l1, q = l2, curr = dummyHead;

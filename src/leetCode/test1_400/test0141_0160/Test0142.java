@@ -1,5 +1,7 @@
 package leetCode.test1_400.test0141_0160;
 
+import leetCode.ListNode;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -22,15 +24,6 @@ import java.util.Set;
 * */
 
 public class Test0142 {
-    class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-            next = null;
-        }
-    }
 
     public ListNode detectCycle(ListNode head) {
         Set<ListNode> visited = new HashSet<ListNode>();

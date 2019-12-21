@@ -1,5 +1,7 @@
 package leetCode.test1_400.test0141_0160;
 
+import leetCode.ListNode;
+
 /**
  * @author nimingxiong
  * @date 2019/12/17 18:52
@@ -20,15 +22,7 @@ package leetCode.test1_400.test0141_0160;
  * 解释：链表中没有环。
  */
 public class Test0141 {
-    class ListNode {
-        int val;
-        ListNode next;
 
-        ListNode(int x) {
-            val = x;
-            next = null;
-        }
-    }
 
     public boolean hasCycle(ListNode head) {
         if (head == null || head.next == null) {
