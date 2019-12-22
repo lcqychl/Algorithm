@@ -14,17 +14,12 @@ package leetCode.test1_400.test0081_0100;
 ]
 * */
 
+import leetCode.TreeNode;
+
 import java.util.LinkedList;
 import java.util.List;
 
 public class Test0095 {
-    public class TreeNode {
-      int val;
-      TreeNode left;
-      TreeNode right;
-      TreeNode(int x) { val = x; }
-  }
-
     public LinkedList<TreeNode> generate_trees(int start, int end) {
         LinkedList<TreeNode> all_trees = new LinkedList<TreeNode>();
         if (start > end) {
