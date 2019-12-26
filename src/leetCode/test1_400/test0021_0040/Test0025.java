@@ -1,5 +1,7 @@
 package leetCode.test1_400.test0021_0040;
 
+import leetCode.ListNode;
+
 /**
 *给你一个链表，每 k 个节点一组进行翻转，请你返回翻转后的链表。
 k 是一个正整数，它的值小于或等于链表的长度。
@@ -14,15 +16,6 @@ k 是一个正整数，它的值小于或等于链表的长度。
 * */
 
 public class Test0025 {
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
-
     public ListNode reverseKGroup(ListNode head, int k) {
         ListNode prev = null;
         ListNode cur = head;

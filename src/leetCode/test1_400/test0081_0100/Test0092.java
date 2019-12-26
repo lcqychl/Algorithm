@@ -9,12 +9,10 @@ package leetCode.test1_400.test0081_0100;
 输出: 1->4->3->2->5->NULL
 * */
 
+import leetCode.ListNode;
+
 public class Test0092 {
-    public class ListNode {
-      int val;
-      ListNode next;
-      ListNode(int x) { val = x; }
-  }
+
     private boolean stop;
     private ListNode left;
 

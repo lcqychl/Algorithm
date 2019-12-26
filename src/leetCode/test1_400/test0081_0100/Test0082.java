@@ -1,5 +1,7 @@
 package leetCode.test1_400.test0081_0100;
 
+import leetCode.ListNode;
+
 /**
  * 给定一个排序链表，删除所有含有重复数字的节点，只保留原始链表中 没有重复出现 的数字。
  * 示例 1:
@@ -11,15 +13,6 @@ package leetCode.test1_400.test0081_0100;
  */
 
 public class Test0082 {
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
-
     //递归写法
     public ListNode deleteDuplicates(ListNode head) {
         if (head == null) {

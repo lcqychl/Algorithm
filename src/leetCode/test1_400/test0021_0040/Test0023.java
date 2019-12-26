@@ -1,5 +1,7 @@
 package leetCode.test1_400.test0021_0040;
 
+import leetCode.ListNode;
+
 /**
  * 合并 k 个排序链表，返回合并后的排序链表。请分析和描述算法的复杂度。
  * 示例:
@@ -13,15 +15,6 @@ package leetCode.test1_400.test0021_0040;
  */
 
 public class Test0023 {
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
-
     public ListNode mergeKLists(ListNode[] lists) {
         if (lists.length == 0)
             return null;

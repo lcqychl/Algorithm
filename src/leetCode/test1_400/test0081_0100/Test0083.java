@@ -1,5 +1,7 @@
 package leetCode.test1_400.test0081_0100;
 
+import leetCode.ListNode;
+
 /**
 * 给定一个排序链表，删除所有重复的元素，使得每个元素只出现一次。
 示例 1:
@@ -11,15 +13,6 @@ package leetCode.test1_400.test0081_0100;
 * */
 
 public class Test0083 {
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
-
     public ListNode deleteDuplicates(ListNode head) {
         if(head == null || head.next == null){
             return head;

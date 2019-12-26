@@ -1,6 +1,8 @@
 package leetCode.test1_400.test0001_0020;
 
 
+import leetCode.ListNode;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -12,14 +14,6 @@ import java.util.Map;
  */
 
 public class Test0019 {
-    public class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) {
-            val = x;
-        }
-    }
-
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode temp = head;
         Map<Integer, ListNode> m = new HashMap<Integer, ListNode>();

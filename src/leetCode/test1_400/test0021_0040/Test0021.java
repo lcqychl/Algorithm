@@ -1,5 +1,7 @@
 package leetCode.test1_400.test0021_0040;
 
+import leetCode.ListNode;
+
 /**
  * 将两个有序链表合并为一个新的有序链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。 
  * 示例：
@@ -8,15 +10,6 @@ package leetCode.test1_400.test0021_0040;
  */
 
 public class Test0021 {
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
-
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode dummyHead = new ListNode(0);
         ListNode cur = dummyHead;
