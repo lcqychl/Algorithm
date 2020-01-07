@@ -32,7 +32,7 @@ public class Test0155 {
     /**
      * initialize your data structure here.
      */
-    public MinStack() {
+    public  Test0155() {
         this.data = new Stack<>();
         this.helper = new Stack<>();
     }
