@@ -14,10 +14,10 @@ package leetCode.test1_400.test0301_0320;
  * 你可以假设数组不可变。
  * 会多次调用 sumRange 方法。
  */
-public class Test0302 {
+public class Test0303 {
     private int[] sum;
 
-    public Test0302(int[] nums) {
+    public Test0303(int[] nums) {
         sum = new int[nums.length + 1];
         for (int i = 0; i < nums.length; i++) {
             sum[i + 1] = sum[i] + nums[i];
