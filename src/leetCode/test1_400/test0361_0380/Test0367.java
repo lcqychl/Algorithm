@@ -15,12 +15,16 @@ package leetCode.test1_400.test0361_0380;
  */
 
 public class Test0367 {
-    public boolean isPerfectSquare(int num) {
+    public static boolean isPerfectSquare(int num) {
         if (1 == num) return true;
         int i = num / 2;
         while ((double) i * i > num) {
             i = (i + num / i) / 2;
         }
         return i * i == num;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(isPerfectSquare(16));
     }
 }
